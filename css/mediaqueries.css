@@ -1,0 +1,46 @@
+/**************************
+    XS devices (Mobile)
+**************************/
+@media (max-width: 576px) {
+  /* Header */  
+    img {
+        width: 35%;
+        height: 50%;
+    }
+    .top-header {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    h1 {
+        font-size: 1.3rem;
+
+    }
+    h3 {
+        font-size: 1rem;
+    }
+}
+
+
+/**************************
+    XS devices (Mobile)
+**************************/
+
+
+
+
+/**************************
+    XS devices (Mobile)
+**************************/
+
+
+
+/**************************
+    XS devices (Mobile)
+**************************/
+
+
+
+/**************************
+    XS devices (Mobile)
+**************************/
