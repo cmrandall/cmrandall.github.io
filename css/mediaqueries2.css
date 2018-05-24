@@ -1,0 +1,130 @@
+/*********************************
+    XS devices (Mobile) < 576px
+*********************************/
+@media (max-width: 576px) {
+
+  /* Global */
+  
+    #achievements, #contact {
+        padding-top: 3%;
+        padding-bottom: 3%;
+    }
+  /* Header */  
+    .top-header img {
+        width: 80%;
+    }
+    .top-header {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .header-section > h1 {
+        font-size: 1.3rem;
+
+    }
+    .header-section > h3 {
+        font-size: .9rem;
+    }
+
+     /* Main Nav */
+    .navbar {
+        padding: 0;
+    }
+    #nav-toggle {
+        width: 100%;
+        padding: 10px 20px 10px 25px;
+    }
+    #nav-toggle > button {
+        float: right;
+    }
+    .main-nav > ul {
+        padding-bottom: 10px;
+    }
+    .main-nav > ul > li {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    /* About section */
+    .about > h1 {
+        margin: 4% 0;
+    }
+    .about {
+        padding-top: 3%;
+    }    
+    .about-text ul {
+        text-align: center;
+    }
+    .about-text ul li {
+        padding-top: 5px;
+    }
+
+    /* Achievements */
+    #achievements {
+        padding-bottom: 10%;
+    }    
+}
+
+
+/**************************
+   SM Devices > 576px
+**************************/
+@media (min-width: 577px) and (max-width: 768px) {
+    /* Header */  
+    .top-header img {
+        width: 65%;
+    }
+    .header-section > h1 {
+        font-size: 1.4rem;
+    }
+    .header-section > h3 {
+        font-size: 1rem;
+    }
+    /* About */
+    .about-text ul li {
+        padding-top: 5px;
+    }
+    /* Featured Work */
+    #featured-work,
+    #achievements,
+    #contact             {
+        padding: 3% 0;
+    }
+
+    
+}
+
+/**************************
+    MD devices > 768
+**************************/
+@media (min-width: 769px) and (max-width: 992px) {
+    /* Header */  
+    .top-header img {
+        width: 65%;
+    }
+    .header-section > h1 {
+        font-size: 1.6rem;
+    }
+    .header-section > h3 {
+        font-size: 1.2rem;
+    }
+}
+
+
+/**************************
+    XS devices (Mobile)
+**************************/
+
+
+
+/**************************
+    XL devices > 1200
+**************************/
+@media (min-width:  1200px) {
+    .about img {
+        max-width: 60%;
+    }
+}
